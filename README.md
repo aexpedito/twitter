@@ -1,12 +1,7 @@
 
 
-{"consumer_key": "pT5KOdDtgnpWWSXeaTQ0sgqoj",
-"consumer_secret": "6PkBzvXHnYwT2ItygKzGYJguVdtnrkzhzf4A97wEpSHJ9bcqa3",
-"access_token": "112226789-IMqzkzFRZ1ECugsHVOHFTrLuMz6wctLJHk6gs7Ul",
-"access_secret": "lOPb9r3F0NBzxTLOdbWek8GcvaOkNeg4bwKv5xD5MVo0H"
-}
 
-pip install --upgrade setuptools --proxy http://genproxy:8080
+pip install --upgrade setuptools --proxy proxy
 python -m spacy download en_core_web_sm
 
 #create env
